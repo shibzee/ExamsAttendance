@@ -46,6 +46,7 @@ private FirebaseUser user;
 
 //        db.createAdmin("sherif@gmail.com","abulado");
          db.createAdmin("abdul@gmail.com","abdul");
+         db.createUser("abdul@gmail.com","abdul");
         admin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
