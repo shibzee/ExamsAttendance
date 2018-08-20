@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "651513649435",
+    "firebase_url": "https://examstudent-8fcf6.firebaseio.com",
+    "project_id": "examstudent-8fcf6",
+    "storage_bucket": "examstudent-8fcf6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651513649435:android:f5f751a0c09d792f",
+        "android_client_info": {
+          "package_name": "com.examsattendance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651513649435-n2u698t3f58oejr7lms1vcps5vir8s8d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUepNh4esoEaARIKsKS7I0bS2Fpan0xRg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

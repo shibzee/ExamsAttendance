@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e9e5e5"
+    android:layout_margin="15dp"
+    android:gravity="center"
+    tools:context="com.examsattendance.RegisterCourse">
+
+    <EditText
+        android:id="@+id/edit_reg_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Registration Number" />
+
+
+
+    <org.angmarch.views.NiceSpinner
+        android:id="@+id/spinner_select_course"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/btn_reg_course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register Course"/>
+    <Button
+        android:layout_marginTop="40sp"
+        android:id="@+id/btn_go_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Home"/>
+
+</LinearLayout>
